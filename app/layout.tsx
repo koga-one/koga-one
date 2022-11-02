@@ -1,9 +1,7 @@
-import { Inter } from "@next/font/google";
 import "./globals.scss";
 import Header from "./Header";
+import Navbar from "./Navbar";
 import Footer from "./Footer";
-
-const inter = Inter();
 
 export default function RootLayout({
   children,
@@ -11,15 +9,22 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={inter.className}>
+    <html lang="en">
       <head>
-        <title>K1</title>
+        <title>KOGA</title>
         <meta name="description" content="Koga's Homepage" />
         <link rel="icon" href="/favicon.ico" />
+        <script
+          src="https://kit.fontawesome.com/728cb48e9f.js"
+          crossOrigin="anonymous"
+        ></script>
       </head>
-      <body>
+      <body className="overflow-x-hidden">
         <Header />
-        <main>{children}</main>
+        <main className="mx-2 my-4 rounded-xl border border-dashed border-front p-2">
+          {children}
+        </main>
+        <Navbar />
         <Footer />
       </body>
     </html>
