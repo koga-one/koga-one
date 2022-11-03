@@ -31,7 +31,7 @@ module.exports = {
       ],
     },
     extend: {},
-    colors: { front: "#F4FFFB", back: "#280932", color: "#0090C1" },
+    colors: { front: "#F4FFFB", back: "#280932" /*color: "#0090C1"*/ },
     fontFamily: { chivo: "Chivo" },
   },
   // plugins: [],

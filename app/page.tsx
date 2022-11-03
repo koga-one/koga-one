@@ -12,7 +12,7 @@ export default function Home() {
         </p>
       </section>
       <section>
-        <p className="rounded-xl bg-color px-4 py-2 text-2xl font-medium italic text-back">
+        <p className="rounded-xl bg-front px-4 py-2 text-2xl font-medium italic text-back">
           Check it out:
         </p>
       </section>

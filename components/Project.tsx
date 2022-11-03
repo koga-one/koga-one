@@ -44,7 +44,7 @@ export default function Project({
               {title}
             </p>
             <div className="flex-grow">
-              <p className="text-lg font-extralight">{description}</p>
+              <p className="text-lg">{description}</p>
             </div>
             <ul className="flex flex-wrap gap-2">
               {tags &&

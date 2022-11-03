@@ -14,13 +14,13 @@ export default function Footer() {
         </ul>
       </section> */}
       <section className="overflow-hidden">
-        <p className="-translate-x-[10%] whitespace-nowrap text-[10rem] font-black uppercase leading-[58%] text-color">
+        <p className="-translate-x-[10%] whitespace-nowrap text-[10rem] font-black uppercase leading-[58%] text-back">
           K1K1K1K1K1K1K1K1K1K1K1K1K1K1K1K1K1K1K1K1K1K1K1K1K1K1K1K1K1K1K1K1K1K1K1K1K1K1K1K1K1K1K1K1K1K1K1K1K1K1K1K1K1K1K1K1
         </p>
       </section>
       <section className="border-t border-dashed border-back p-4">
         <p className="text-center text-sm font-light italic">
-          ...appreciating the journey since 2002
+          ...appreciating the journey since 2002 (✿◡‿◡)
         </p>
       </section>
     </footer>
