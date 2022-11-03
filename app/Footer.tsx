@@ -7,6 +7,7 @@ export default function Footer() {
         <ul>
           <li>
             <Link href="https://instagram.com/real.koga">
+              hey
               <i className="fa fa-linkedin"></i>
             </Link>
           </li>

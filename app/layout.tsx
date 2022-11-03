@@ -12,19 +12,20 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <title>KOGA</title>
+        <meta
+          name="viewport"
+          content="width=device-width, initial-scale=1"
+        ></meta>
         <meta name="description" content="Koga's Homepage" />
         <link rel="icon" href="/favicon.ico" />
         <script
           src="https://kit.fontawesome.com/728cb48e9f.js"
           crossOrigin="anonymous"
-        ></script>
+        />
       </head>
-      <body className="overflow-x-hidden">
+      <body>
         <Header />
-        <main className="mx-2 my-4 rounded-xl border border-dashed border-front p-2">
-          {children}
-        </main>
-        <Navbar />
+        <main>{children}</main>
         <Footer />
       </body>
     </html>
