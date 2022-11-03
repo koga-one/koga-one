@@ -25,7 +25,7 @@ export default function Project({
       style={{ backgroundColor: backColor, color: neutralColor }}
     >
       <a href={link} target="blank">
-        <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
+        <div className="grid h-full grid-cols-1 gap-4 md:grid-cols-2">
           <div className="relative aspect-[4/3] overflow-hidden rounded-lg">
             <Image
               className="object-cover"

@@ -8,7 +8,7 @@ module.exports = {
         "calc(0.2vw + 1rem)",
         { lineHeight: "calc(0.2vw + 1rem)", fontWeight: 500 },
       ],
-      lg: ["calc(0.8vw + 1rem)", { lineHeight: "calc(1.2vw + 1rem)" }],
+      lg: ["calc(0.4vw + 1rem)", { lineHeight: "calc(0.6vw + 1rem)" }],
       xl: [
         "calc(2vw + 1rem)",
         { lineHeight: "calc(2vw + 1rem)", fontWeight: 300 },
@@ -31,7 +31,7 @@ module.exports = {
       ],
     },
     extend: {},
-    colors: { front: "#000", back: "#fff", color: "#08f" },
+    colors: { front: "#F4FFFB", back: "#280932", color: "#0090C1" },
     fontFamily: { chivo: "Chivo" },
   },
   // plugins: [],

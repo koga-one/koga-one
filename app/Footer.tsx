@@ -2,8 +2,8 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <footer className="flex h-screen flex-col gap-2 bg-front text-back">
-      <section className="flex-grow">
+    <footer className="flex flex-col bg-front pt-8 text-back">
+      {/* <section className="flex-grow">
         <ul>
           <li>
             <Link href="https://instagram.com/real.koga">
@@ -12,9 +12,9 @@ export default function Footer() {
             </Link>
           </li>
         </ul>
-      </section>
+      </section> */}
       <section className="overflow-hidden">
-        <p className="-translate-x-[10%] whitespace-nowrap text-[10rem] font-black uppercase leading-[58%]">
+        <p className="-translate-x-[10%] whitespace-nowrap text-[10rem] font-black uppercase leading-[58%] text-color">
           K1K1K1K1K1K1K1K1K1K1K1K1K1K1K1K1K1K1K1K1K1K1K1K1K1K1K1K1K1K1K1K1K1K1K1K1K1K1K1K1K1K1K1K1K1K1K1K1K1K1K1K1K1K1K1K1
         </p>
       </section>
