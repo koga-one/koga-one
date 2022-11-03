@@ -3,7 +3,7 @@ module.exports = {
   content: ["./app/**/*.{js,ts,jsx,tsx}", "./components/**/*.{js,ts,jsx,tsx}"],
   theme: {
     fontSize: {
-      sm: ["0.9rem", { lineHeight: "0.9rem", fontWeight: 500 }],
+      sm: ["0.8rem", { lineHeight: "0.8rem", fontWeight: 500 }],
       base: [
         "calc(0.2vw + 1rem)",
         { lineHeight: "calc(0.2vw + 1rem)", fontWeight: 500 },

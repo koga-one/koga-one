@@ -61,7 +61,7 @@ export default function Project({
                 })}
             </ul>
             <a href={link} target="blank">
-              <p className="italic underline">{link}</p>
+              <p className="text-sm italic underline">{link}</p>
             </a>
           </div>
         </div>
